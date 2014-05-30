@@ -1,0 +1,22 @@
+Welcome, How many candiates are running in this election? > 5
+    Canidates's ID: 1025
+    Enter # of received votes: 5000
+    Canidates's ID: 3975
+    Enter # of received votes: 4000
+    Canidates's ID: 4563
+    Enter # of received votes: 6000
+    Canidates's ID: 5500
+    Enter # of received votes: 2500
+    Canidates's ID: 7540
+    Enter # of received votes: 1800
+    -------------------------
+    | Canidate ID |  Vote # |
+    -------------------------
+    |     1025    |   5000  |
+    |     3975    |   4000  |
+    |     4563    |   6000  |
+    |     5500    |   2500  |
+    |     7540    |   1800  |
+    -------------------------
+The total votes cast: 19300
+The election winner is ID number 4563 with: 6000 votes

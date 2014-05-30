@@ -1,0 +1,26 @@
+90.267	 C Programming	  PROGRAMMING ASSIGNMENT #4	                 4/1/14
+
+Purpose:
+The purpose of this programming assignment is to reinforce the use of data structures, arrays of structures, the passing of arrays of structures to functions and the return of a structure from a function. The use of functions in the top/down and modular approach to program design and development is stressed. 
+
+Assignment:
+Referencing Programming Assignment #3, reprogram this assignment so that the student id, test score and letter grades are included as members of a data structure (student record) and declare an array of data structures (student records). 
+
+ Design your program so that the main function invokes/calls a separate function to perform each of the following tasks:
+
+fill the array of data structures (student records) at run time; pass the array of structures to a function to fill the arrays
+
+determine the letter grade and assign it to the letter grade member for each student (pass one data structure at a time to the function and return the updated data structure to main)
+
+display the id, test score and letter grades for each student record (pass the array of structures to the function)
+
+compute the average (return the average to main and print the answer from main)
+
+determine the student with the highest numeric score (return the student record with the highest numeric score from the function to main and print the id, numeric score and letter grade from main)
+
+determine and print the number of A’s, B’s, C’s, D’s, F’s and the number of people with grades greater than the average.
+
+
+Use the same first set of test data you used for Assignments #3 as shown below:
+
+Due Date: 4/22/14

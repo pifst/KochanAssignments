@@ -1,0 +1,46 @@
+
+90.267	 C Programming		PROGRAMMING ASSIGNMENT #5	           		4/15/14
+
+The purpose of this assignment is to reinforce the relationship between array names and pointers, dynamic memory allocation, passing arrays and pointer arithmetic.
+
+Write a C program that allows the user to enter the identification numbers of a number of candidates in a local election and the votes received by each candidate. The program should then output each candidate’s identification number, and the votes received by that candidate.  The total votes cast and the id and vote total of the winner should also be displayed.
+
+A sample output (for five candidates) is:
+
+Candidate			Votes Received			
+1025				     5000				
+3975				     4000		
+4563				     6000				
+5500			  	     2500				
+7540				     1800				  
+
+Total Votes Cast:  19300
+
+The election winner is ID Number 4563 with 6000 votes.
+
+Instructions:
+Remember that your program should be general enough to process any number of candidates in an election. 
+Therefore, the two arrays used by your program should be created at run time by asking the user how many candidates are in the election and by using dynamic memory allocation.
+
+Design your program so that the main function creates the arrays and then calls functions to perform the following:
+
+Fill the candidate and votes received arrays
+
+Display the Candidate id and Votes Received in table form
+
+Determine the total vote count and return the answer to main ( ) and display from main ( ).
+
+Determine the index to the election winner and return it to main ( ) and display the winner and his/her vote total from main ( ) using the returned index.
+
+When calling the function in step #1 pass the arrays to the function using array subscript notation and use array subscript notation in all of your processing statements in the function.
+
+When calling the function in step #2  pass the arrays as pointers and use “pointer reference” notation example:  *(ptr + i) . 
+
+For the function in step  #3 pass the arrays as pointers to the functions and use “pointer arithmetic” , example:  *ptr++  for summing up the votes.  
+
+
+Use the data supplied with the sample output for your assignment.
+When calling the function in step #4 pass the arrays to the function using a notation of your choice. 
+										
+              Due Date: 5/6/14
+											

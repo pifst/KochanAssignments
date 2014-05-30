@@ -1,0 +1,90 @@
+Welcome, Please enter upto 50 pairs of Student ID's & scores.
+To halt the data entry process, enter 0 for the Student ID.
+
+    Student's ID: 1005
+    Enter Grade: 65
+    Student's ID: 1945
+    Enter Grade: 72
+    Student's ID: 1020
+    Enter Grade: 50
+    Student's ID: 1955
+    Enter Grade: 92
+    Student's ID: 1030
+    Enter Grade: 140
+    *Error: Input 140, is out of range.*
+    Please use an integer from 0 to 100.
+    Enter Grade: 72
+    Student's ID: 1500
+    Enter Grade: 91
+    Student's ID: 1100
+    Enter Grade: -10
+    *Error: Input -10, is out of range.*
+    Please use an integer from 0 to 100.
+    Enter Grade: 110
+    *Error: Input 110, is out of range.*
+    Please use an integer from 0 to 100.
+    Enter Grade: 77
+    Student's ID: 1790
+    Enter Grade: 43
+    Student's ID: 1800
+    Enter Grade: 85
+    Student's ID: 0
+End of data collection.
+
+Report - Original data:
+    --------------------
+     ID : Score : Grade
+    --------------------
+    1005    65      D 
+    1945    72      C 
+    1020    50      F 
+    1955    92      A 
+    1030    72      C 
+    1500    91      A 
+    1100    77      C 
+    1790    43      F 
+    1800    85      B 
+    --------------------
+
+Report - Student ID Ascending:
+    --------------------
+     ID : Score : Grade
+    --------------------
+    1005    65      D 
+    1020    50      F 
+    1030    72      C 
+    1100    77      C 
+    1500    91      A 
+    1790    43      F 
+    1800    85      B 
+    1945    72      C 
+    1955    92      A 
+    --------------------
+
+The average test score was: 71.89, of which 6 students scored over the average.
+The Student ID # 1955 received the highest score of: 92, for a grade of: A
+The grade distribution is:
+    A: 2
+    B: 1
+    C: 3
+    D: 1
+    F: 2
+
+Report - Student Score Descending:
+    --------------------
+     ID : Score : Grade
+    --------------------
+    1955    92      A 
+    1500    91      A 
+    1800    85      B 
+    1100    77      C 
+    1945    72      C 
+    1030    72      C 
+    1005    65      D 
+    1020    50      F 
+    1790    43      F 
+    --------------------
+
+logout
+
+[Process completed]
